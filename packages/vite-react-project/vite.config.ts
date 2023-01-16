@@ -12,6 +12,9 @@ const variablePath = normalizePath(path.resolve('./src/variable.scss'));
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // json: {
+  //   stringify: true
+  // },
   plugins: [
     viteEslint(),
     react({
